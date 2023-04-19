@@ -1,8 +1,8 @@
-2023-04-19 10:33:18,592 - root - INFO - Conversion exitosa: Frutilla ---> frutilla
-2023-04-19 10:33:18,593 - root - INFO - Conversion exitosa: Melón ---> melón
-2023-04-19 10:33:18,593 - root - INFO - Conversion exitosa: PERA ---> pera
-2023-04-19 10:33:18,593 - root - ERROR - Conversion fallida: 99.6
-2023-04-19 10:33:18,593 - root - INFO - Conversion exitosa: NaranJA ---> naranja
-2023-04-19 10:33:18,593 - root - INFO - Conversion exitosa: mORa ---> mora
-2023-04-19 10:33:18,593 - root - INFO - Conversion exitosa: NisPERo ---> nispero
-2023-04-19 10:33:18,593 - root - ERROR - Conversion fallida: 99
+2023-04-19 10:56:08,714 - root - INFO - Conversion exitosa: Frutilla ---> frutilla
+2023-04-19 10:56:08,714 - root - INFO - Conversion exitosa: Melón ---> melón
+2023-04-19 10:56:08,714 - root - INFO - Conversion exitosa: PERA ---> pera
+2023-04-19 10:56:08,714 - root - ERROR - Conversion fallida: 99.6
+2023-04-19 10:56:08,714 - root - INFO - Conversion exitosa: NaranJA ---> naranja
+2023-04-19 10:56:08,715 - root - INFO - Conversion exitosa: mORa ---> mora
+2023-04-19 10:56:08,715 - root - INFO - Conversion exitosa: NisPERo ---> nispero
+2023-04-19 10:56:08,715 - root - ERROR - Conversion fallida: 99

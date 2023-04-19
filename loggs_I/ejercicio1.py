@@ -13,9 +13,20 @@ logging.basicConfig(
 fruits = ['Frutilla','Melón','PERA',99.6,'NaranJA', 'mORa', 'NisPERo',99]
 
 #Recorremos y si es posible convertir a minuscula mostramos
+# for i in fruits:
+#     if type(i)==str:
+#         minuscula=i.lower()
+#         logging.info("Conversion exitosa: %s ---> %s", i, minuscula)
+#     else:
+#         logging.error("Conversion fallida: %s", i)
+        
 for i in fruits:
-    if type(i)==str:
-        minuscula=i.lower()
-        logging.info("Conversion exitosa: %s ---> %s", i, minuscula)
-    else:
+    try:
+        if type(i)==str:
+            minuscula=i.lower()
+            logging.info("Conversion exitosa: %s ---> %s", i, minuscula)
+        else:
+            raise ValueError
+        
+    except ValueError:
         logging.error("Conversion fallida: %s", i)
