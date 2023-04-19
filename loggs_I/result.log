@@ -1,8 +1,8 @@
 root - DEBUG - Se convirtio correctamente Frutilla --> frutilla
 root - DEBUG - Se convirtio correctamente Melón --> melón
 root - DEBUG - Se convirtio correctamente PERA --> pera
-root - ERROR - No se pudo convertir %s
+root - ERROR - No se pudo convertir
 root - DEBUG - Se convirtio correctamente NaranJA --> naranja
 root - DEBUG - Se convirtio correctamente mORa --> mora
 root - DEBUG - Se convirtio correctamente NisPERo --> nispero
-root - ERROR - No se pudo convertir %s
+root - ERROR - No se pudo convertir
