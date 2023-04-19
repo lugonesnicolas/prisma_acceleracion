@@ -1,2 +1,1 @@
-2023-04-18 23:57:53,682 - ERROR - Este es un mensaje de error
-2023-04-18 23:57:53,682 - CRITICAL - Este es un mensaje critico
+2023-04-19 09:07:31,786 - __main__ - ERROR - Esto es un error
