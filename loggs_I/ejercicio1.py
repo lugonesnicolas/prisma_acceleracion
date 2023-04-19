@@ -18,4 +18,4 @@ for i in fruits:
         minuscula=i.lower()
         logging.debug("Se convirtio correctamente %s --> %s", i, minuscula)
     else:
-        logging.error("No se pudo convertir %s")
+        logging.error("No se pudo convertir")
