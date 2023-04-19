@@ -6,7 +6,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     filename='result.log',
     filemode='w',
-    format='%(name)s - %(levelname)s - %(message)s'
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 
 #Lista a trabajar
@@ -16,6 +16,6 @@ fruits = ['Frutilla','Melón','PERA',99.6,'NaranJA', 'mORa', 'NisPERo',99]
 for i in fruits:
     if type(i)==str:
         minuscula=i.lower()
-        logging.debug("Se convirtio correctamente %s --> %s", i, minuscula)
+        logging.info("Conversion exitosa: %s ---> %s", i, minuscula)
     else:
-        logging.error("No se pudo convertir")
+        logging.error("Conversion fallida: %s", i)
