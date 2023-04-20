@@ -5,7 +5,7 @@ logging.basicConfig(level=logging.DEBUG,format='%(asctime)s  %(name)s %(levelnam
 logger=logging.getLogger(__name__)
 
 def record_word_count(myfile):
-    logger.info("Starting the function")
+    logger.info("Starting the functions")
     try:
         word_count=lowermodule.word_count(myfile)
         with open('wordcountarchive.csv', 'a') as file:
