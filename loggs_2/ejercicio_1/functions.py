@@ -4,7 +4,7 @@ import logging.config
 logging.config.fileConfig('log_config_file.conf')
 
 #Create logger
-logger=logging.getLogger('functionsLogger')
+logger=logging.getLogger('functions')
 
 
 def contar_renglones(cuento):

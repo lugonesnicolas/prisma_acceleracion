@@ -5,7 +5,7 @@ import functions as func
 logging.config.fileConfig('log_config_file.conf')
 
 #Create logger
-logger=logging.getLogger('mainLogger')
+logger=logging.getLogger('main')
 
 
 def main():
